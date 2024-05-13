@@ -1,0 +1,135 @@
+body {
+    background-color: hsl(0, 96%, 21%);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 200px;
+}
+
+nav ul {
+    background-color: rgba(247, 245, 245, 0.692);
+    border-radius: 1.25rem;
+    list-style: none;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav li a {
+    color: rgb(105, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+
+section{
+    display: flex;
+}
+
+.first-section{
+    /* background-image: url(https://images.pexels.com/photos/3091636/pexels-photo-3091636.jpeg); */
+    background-image: url(https://images.pexels.com/photos/691046/pexels-photo-691046.jpeg);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(71, 14, 14);
+    background-repeat: no-repeat;
+    background-size:   1400px 400px;
+    background-position: center;
+    height: 200px;
+
+}
+
+.first-section h1{
+    margin: auto;
+}
+
+.first-section p{
+    font-weight: bold;
+    font-size: large;
+}
+
+article{
+    flex: 1;
+}
+
+.second-section article{
+    background-color: rgba(242, 248, 242, 0.11);
+    margin: 0.3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: rgba(247, 245, 245, 0.692);
+    display: block;
+    text-align: center;
+}
+
+.second-section p{
+text-align: start;}
+
+.second-section a{
+    color: rgba(247, 245, 245, 0.692);
+    text-decoration: underline;
+}
+
+.second-section a:hover{
+    text-decoration: none;
+    color: rgb(2, 105, 100);
+}
+
+@media (max-width: 600px) {
+    .second-section {
+      flex-direction: column;
+    }
+  }
+
+.second-section img:hover{
+    transform: rotateY(360deg);
+	transition: 4s;  }
+
+.lookbook-img, .customize-img, .appointment-img{
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 270px;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    margin: 0.5rem;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+text-align: end;
+color: rgba(247, 245, 245, 0.673);
+}
