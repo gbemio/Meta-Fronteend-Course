@@ -20,7 +20,9 @@ header > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   width: 200px;
+    width: 200px;
+   
+
 }
 
 nav ul {
@@ -57,21 +59,32 @@ section{
     background-image: url(https://images.pexels.com/photos/691046/pexels-photo-691046.jpeg);
     padding: 1rem;
     border-radius: 1rem;
-    color: rgb(71, 14, 14);
+    color: rgba(28, 1, 1, 0.886);
     background-repeat: no-repeat;
     background-size:   1400px 400px;
     background-position: center;
-    height: 200px;
-
+    padding-left: 2rem;
+   
 }
 
 .first-section h1{
     margin: auto;
+    padding-top: 0.5rem;
 }
 
 .first-section p{
     font-weight: bold;
     font-size: large;
+    width: 60%;
+    text-align: justify;
+    padding-top: 0.2rem;
+
+}
+
+@media (max-width: 600px) {
+    .first-section p {
+        width: 100%;
+    }
 }
 
 article{
@@ -116,7 +129,7 @@ text-align: start;}
     margin: 0.5rem;
     border-radius: 0.5rem;
     text-align: center;
-    width: 270px;
+    /* width: 270px; */
     height: 300px;
 }
 
